@@ -1,0 +1,55 @@
+<!--=include header.html  -->
+<main class="main">
+  <section class="not-found">
+    <div class="container">
+      <div class="not-found__inner">
+        <div class="not-found__content">
+          <span class="not-found__bg">
+            404
+          </span>
+          <p class="not-found__subtitle">
+            ПОМИЛКА
+          </p>
+          <h1 class="not-found__title">
+            СТОРІНКУ НЕ ЗНАЙДЕНО
+          </h1>
+          <p class="not-found__text">
+            Сторінка, яку Ви шукаєте, могла бути видалена,
+            перейменована або тимчасово недоступна.
+          </p>
+          <div class="not-found__actions">
+            <a class="not-found__btn" href="/">
+              НА ГОЛОВНУ
+            </a>
+            <button class="not-found__link" type="button" id="open-contact-modal">
+              ЗВ’ЯЗАТИСЯ →
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="contact-modal-overlay"></div>
+  <div class="contact-modal">
+    <button type="button" class="contact-modal__close">
+      &times;
+    </button>
+    <div class="hero__form-inner">
+      <form class="hero__form" id="contact-modal-form">
+        <div class="hero__form-row">
+          <input class="hero__form-input" type="text" name="name" placeholder="Ваше ім’я" required>
+          <input class="hero__form-input" type="tel" name="phone" placeholder="Телефон" required>
+        </div>
+        <input class="hero__form-input" type="email" name="email" placeholder="E-mail" required>
+        <textarea class="hero__form-textarea" name="message" placeholder="Що Вам потрібно зробити?"></textarea>
+        <button class="hero__form-btn" type="submit">
+          ВІДПРАВИТИ
+        </button>
+      </form>
+    </div>
+  </div>
+</main>
+
+
+<!--=include footer.html  -->
